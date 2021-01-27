@@ -36,3 +36,7 @@ networks:
     external:
       name:
         webproxy
+
+environment:
+  VIRTUAL_HOST: accommodation.pjjop.org
+  LETSENCRYPT_HOST: accommodation.pjjop.org
